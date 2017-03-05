@@ -1,0 +1,68 @@
+body {
+  background-image: url("img/background.jpg");
+  background-repeat: repeat;
+}
+
+img {
+  position: fixed;
+  top:10px;
+  left:10px;
+  z-index:1000;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 10000;
+}
+
+li, h3 {
+  font-family: serif;
+  color: #6495ED;
+}
+
+li {
+  float:right;
+  margin: 0px 20px;
+}
+
+section {
+  position: relative;
+  top:70px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  color: #2F4F4F;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+article {
+  border: 1px solid rgba(69,69,69,0.2);
+  padding: 10px;
+}
+
+
+#article-list {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  width: 70%;
+}
+
+footer {
+  position:relative;
+  top:120px;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
