@@ -11,7 +11,7 @@ img {
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   overflow-y: auto;
   position: fixed;
   left: 0;
@@ -33,14 +33,14 @@ li {
 
 section {
   position: relative;
-  top:70px;
+  top:120px;
 }
 
 h1 {
   text-align: center;
   width: 100%;
   margin-bottom: 50px;
-  color: #2F4F4F;
+  color: rgb(255,255,255);
   font-family: monospace;
   font-size: 40px;
 }
